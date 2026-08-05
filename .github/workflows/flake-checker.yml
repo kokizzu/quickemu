@@ -1,11 +1,6 @@
 name: Flake ❄️ Checker ✅
 
 on:
-  push:
-    branches:
-      - master
-  schedule:
-    - cron: '42 0 * * 6'
   workflow_dispatch:
 
 jobs:
