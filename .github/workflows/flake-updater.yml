@@ -1,8 +1,6 @@
 name: Flake ❄️ Lock 🔒️ Updater ✨
 
 on:
-  schedule:
-    - cron: '37 13 14,28 * *'
   workflow_dispatch:
 
 jobs:
